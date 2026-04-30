@@ -1,11 +1,14 @@
 {
   "name": "ig-webhook",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "Instagram Graph API Webhook for Vercel",
+  "main": "api/webhook.js",
+  "type": "module",
   "scripts": {
-    "start": "node app.js"
+    "start": "vercel dev"
   },
-  "dependencies": {
-    "express": "^4.18.2"
+  "dependencies": {},
+  "devDependencies": {
+    "vercel": "^32.0.0"
   }
 }
